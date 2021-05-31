@@ -1,0 +1,93 @@
+body {
+  text-align: left;
+  font-family: 'Dancing Script', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Dancing Script', cursive;
+}
+
+.h5 {
+  color: #00ead3;
+}
+
+.h6 {
+  color: #00ead3;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  font-family: 'Roboto', sans-serif;
+  padding: 0 0 5px 1em;
+  text-indent: -.7em;
+}
+
+  li::before {
+  content: "\203A";
+  color: #00ead3;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.Social{
+margin-left: 50px;
+}
+
+.top-container{
+  padding: 50px 50px 0 50px;
+}
+
+.ruler-break {
+  color: #00ead3;
+  border: none;
+  height: 1px;
+}
+.btn{
+  margin: 5px;
+}
+
+.button:hover {
+  color: #00ead3;
+}
+
+.bottom-container {
+  padding: 10px 50px 0 50px;
+}
+
+.projects{
+  padding: 10px 0 20px 0;
+}
+
+.hor{
+  border-left: 5px dotted;
+  color: #00ead3;
+  height: 1000px;
+}
+
+.education {
+  margin-top: 10px;
+}
+
+.Right{
+  margin-right: 10px;
+}
+
+
+@media screen and (max-width: 720px){
+  .hor {
+  height: 1500px;
+  }
+
+  .Right {
+    margin-right: 2px;
+  }
+}
